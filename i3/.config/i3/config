@@ -200,3 +200,6 @@ bindsym Mod1+r mode "resize"
 bar {
         status_command i3status
 }
+
+# system-specific config
+include fedora.conf
