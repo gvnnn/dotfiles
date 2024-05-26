@@ -24,6 +24,11 @@ if [ -f ~/.bash_functions ]; then
             . ~/.bash_functions
 fi
 
+# system-local functions
+if [ -f ~/.bash_local_functions ]; then
+            . ~/.bash_local_functions
+fi
+
 unset rc
 
 export EDITOR=vim
