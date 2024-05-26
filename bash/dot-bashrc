@@ -19,6 +19,11 @@ if [ -f ~/.bash_aliases ]; then
             . ~/.bash_aliases
 fi
 
+# User specific functions
+if [ -f ~/.bash_functions ]; then
+            . ~/.bash_functions
+fi
+
 unset rc
 
 export EDITOR=vim
